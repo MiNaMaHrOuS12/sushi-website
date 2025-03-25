@@ -30,11 +30,11 @@
 
 .header__menu,.header__menu-mobile{
     padding: 20px;
-    flex: 1.23;
+    flex: 1.236;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 60px;
+    gap: 64px;
     list-style: none;
 }
 
@@ -49,4 +49,16 @@
 
 }
 
+.header__menu li img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  .header__menu-mobile {
+    display: none;
+    gap: 20px;
+  
+    position: relative;
+  }
 
